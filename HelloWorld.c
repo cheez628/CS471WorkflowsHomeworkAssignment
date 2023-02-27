@@ -6,11 +6,11 @@ int main(){
 	float tempF = 0.0;
 
 	printf("Input a temperature (in C): ");
-	scanf("%f", &tempC);
+	scanf("%f", &tempC); //scan float value
 
-	tempF = (tempC * 9 / 5) + 32;
+	tempF = (tempC * 9 / 5) + 32; //Converts temp from C to F
 
-	printf("%f degrees Fahrenheit. \n", tempF);
+	printf("%f degrees Fahrenheit. \n", tempF); //Outputs converted value
 
 	return 0;
 }
